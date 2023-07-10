@@ -1,0 +1,45 @@
+.footer{
+  
+    padding: 4rem 6rem;
+    background-color: rgba(7, 89, 34, 0.1);
+    color: black;
+    box-shadow: 95px 95px 95px 95px #12bd4ec8;
+}
+.hr{
+    color: white;
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom{
+    padding-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+}
+.bottom h4{
+    font: 1.3em sans-serif;
+    padding: 1rem 0.8rem 0;
+    color: #017259;
+    font-weight: bold;
+   
+   
+}
+.bottom a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.4rem;
+    font: 1.1em sans-serif;
+    color: #d73b59;
+    margin-top: 5px;
+}

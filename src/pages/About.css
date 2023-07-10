@@ -1,0 +1,15 @@
+.about{
+    margin-top: 20px;
+    padding: 30px;
+}
+.about h1{
+    text-align:  center;
+    font-size: 50px;
+    color: #017259;
+}
+.about p{
+    font: 1em sans-serif;
+    background-color: rgba(19, 200, 136, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+}

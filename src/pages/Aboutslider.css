@@ -1,0 +1,76 @@
+.t-wrapper{
+    padding:  4rem 4rem 4rem 4rem;;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+ 
+    
+}
+.t-heading h1{
+    text-align:  center;
+    font-size: 50px;
+    color: #017259;
+}
+
+
+
+
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 2rem;
+    width: 60rem;
+    height: 18rem;
+    /* styles same as work.css */
+    background:#A1E9CF;
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+
+}
+.testimonial>img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100px;
+}
+.testimonial>span{
+    color: #017259;
+    font: 1em sans-serif;
+    padding: 1rem;
+}
+
+
+/* slider */
+.t-wrapper .swiper {
+    width: 100%;
+    height: 70%;
+}
+
+.t-wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-wrapper .swiper-pagination-bullet-active{
+    background: #d73b59;
+}
+
+
+@media screen and (max-width: 480px){
+    .t-wrapper{
+        padding: 0;
+        width: 360px;
+    }
+    .testimonial>img{
+        width: 70px;
+        height: 70px;
+    }
+  }
